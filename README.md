@@ -24,6 +24,6 @@ Done! Let's try ASMO-PODE now!
 Step 6: cd ../banana2D
 python banana2D\_ASMOPODE.py
 
-Other files in directory ZDT1:
+Other files in directory banana2D:
 1. banana2D.py: the 2D distribution function banana2D.
 2. banana2D.txt: the parameter name, lower bound, upper bound.
