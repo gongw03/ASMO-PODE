@@ -14,14 +14,22 @@ ASMOPODE.py support parallel evaluation of multiple Markov Chains on surrogate m
 However, because module object cannot be pickled, although Metropolis.py AM.py and DRAM.py support parallel compution, the banana2D.py module cannot be used parallely with them.
 
 Note that must compile the c-based Gaussian Processes Regression libs.
+
 Step 1: cd src
-Step 2: install swig in your python. For an example, conda install swig (if you use anaconda)
+
+Step 2: install swig in your python. For an example, conda install swig (if you use anaconda). 
 Better to install numba to accelerate Metropolis. For an example, conda install numba (if you use anaconda)
+
 Step 3: python download\_numpy.i.py (download corresponding numpy.i file for swig)
+
 Step 4: python setup\_cgp.py build 
+
 Step 5: cp build/lib.your.system.xxx/\_cgp.cpython.xxx.so . (file name may be different for different systems)
+
 Done! Let's try ASMO-PODE now!
+
 Step 6: cd ../banana2D
+
 python banana2D\_ASMOPODE.py
 
 Other files in directory banana2D:
